@@ -1,0 +1,2 @@
+let mapleader = ","
+set wildignore+=*/vendor/ruby/*,*/vendor/plugin/*,*/tmp/*,*/public/*,*db/schema.rb,*/bundle/*,*/javascripts/compiled/*,*/bin/*
