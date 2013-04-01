@@ -1,0 +1,16 @@
+[hub]
+  protocol = https
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+  ui = true
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[user]
+	name = Vladimir Mikhailov
+	email = netwix@gmail.com
+[alias]
+  
