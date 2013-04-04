@@ -42,4 +42,9 @@ export EDITOR=vim
 
 eval "$(rbenv init -)"
 
+# startup virtualenv-burrito
+if [ -f $HOME/.venvburrito/startup.sh ]; then
+  . $HOME/.venvburrito/startup.sh
+fi
+
 source $ZSH/oh-my-zsh.sh
