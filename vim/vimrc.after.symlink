@@ -1,13 +1,8 @@
-set nu
 set sw=2
 set sts=2
-set fileformat=unix
 
-set list listchars=tab:>-,trail:·,extends:>
+set listchars+=tab:>÷
+set listchars+=trail:÷
 
-highlight NonText ctermfg=lightgray
-highlight SpecialKey ctermfg=lightgray
-
-syntax enable
 set background=dark
 colorscheme solarized

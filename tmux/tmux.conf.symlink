@@ -1,3 +1,8 @@
 setw -g mode-keys vi
 bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection
+
+bind-key -r k select-pane -U
+bind-key -r j select-pane -D
+bind-key -r l select-pane -L
+bind-key -r h select-pane -R
