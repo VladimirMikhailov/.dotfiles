@@ -1,5 +1,5 @@
 # fix PATH before all
-export PATH=/usr/local/bin:${PATH%:/usr/local/bin}
+export PATH=/Users/vladimirmikhailov/code/go/bin:/usr/local/bin:${PATH%:/usr/local/bin}
 
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
@@ -19,3 +19,9 @@ for file in $DOTFILES/**/*.bash
 do
   source "$file"
 done
+
+export NVM_DIR=~/.nvm
+export GOPATH=/Users/vladimirmikhailov/code/go
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash

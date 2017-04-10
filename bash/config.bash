@@ -7,8 +7,8 @@ export ARCHFLAGS='-arch x86_64'
 
 export LC_CTYPE=ru_RU.UTF-8
 
-export VISUAL="subl --wait"
-export EDITOR="$VISUAL"
+export VISUAL="vim"
+export EDITOR="vim"
 export LESS="FRX"
 export RI="--format ansi -T"
 
