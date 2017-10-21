@@ -2,8 +2,14 @@
 .idea
 .sublime-project
 .tool-versions
+.tool-versions-e
 .sublime-workspace
 .byebug_history
 db/*.sqlite3.backup
 vendor/bundle
 .fs.yml
+./tmp
+node_modules
+public/packs-test
+public/packs
+yarn-error.log
